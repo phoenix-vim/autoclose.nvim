@@ -1,14 +1,14 @@
 local M = {}
 
--- M.delete = function (text)
---     return text == "{" or
--- 	text == "[" or
--- 	text == "(" or
--- 	text == "<" or
--- 	text == "\"" or
--- 	text == "'" or
--- 	text == "`"
--- end
+M.delete = function (text)
+    return text == "{" or
+	text == "[" or
+	text == "(" or
+	text == "<" or
+	text == "\"" or
+	text == "'" or
+	text == "`"
+end
 
 M.escape = function (text)
     return text == "}" or
